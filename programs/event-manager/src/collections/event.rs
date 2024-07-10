@@ -9,6 +9,7 @@ pub struct Event {
     pub ticket_price: u64,
     pub active: bool,
     pub open_sales: u64,
+    pub sponsors: u64,
     // accounts
     pub authority: Pubkey,
     pub accepted_mint: Pubkey,
